@@ -285,3 +285,27 @@ button {
   color: var(--accent-7);
 }
 
+/* Input Box */
+
+input {
+  margin: 3rem;
+  border-radius: var(--radius-8x);
+  padding: var(--spacing-8x) var(--spacing-8x) var(--spacing-8x)
+    var(--spacing-8x);
+  border: 1px solid var(--text-6);
+}
+
+input::placeholder {
+  color: var(--text-6);
+}
+
+input:hover {
+  padding: var(--spacing-8x) var(--spacing-8x) var(--spacing-8x)
+    var(--spacing-8x);
+  border: 1px solid var(--text-10);
+}
+
+input:hover::placeholder {
+  transition: ease-in;
+  color: var(--text-10);
+}
