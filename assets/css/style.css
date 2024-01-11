@@ -12,6 +12,76 @@
   font-weight: 400;
 }
 
+:root {
+  /* COLORS */
+
+  /* Primary color */
+  --primary-4: #f4f4f5;
+  --primary-6: #fbf7ff;
+
+  /* Secondary color */
+  --secondary-6: #f7f6fb;
+  
+  /* Accent color */
+  --accent-4: #9da2ff;
+  --accent-6: #646cff;
+  --accent-7: #555cd9;
+  --accent-8: #474db5;
+
+  /* Text colors */
+  --text-6: #d1d1d4;
+  --text-7: #acabb2;
+  --text-8: #878690;
+  --text-10: #63616e;
+  --text-13: #222128;
+
+  /* Red */
+  --red-4: #e98e9d;
+  --red-6: #dc4c64;
+  --red-8: #9c3647;
+
+  /* Green */
+  --green-4: #6bc68f;
+  --green-6: #14a44d;
+  --green-8: #0e7437;
+
+  /* Yellow */
+  --yellow-4: #eec46f;
+  --yellow-6: #e4a11b;
+  --yellow-8: #a27213;
+
+  /* Blue */
+  --blue-4: #93d0e3;
+  --blue-6: #54b4d3;
+  --blue-8: #3c8096;
+
+  /* Base */
+  --black: #000000;
+  --white: #ffff;
+
+  /* SPACING */
+  --spacing-4x:0.25rem;
+  --spacing-8x:0.5rem;
+  --spacing-12x:0.75rem;
+  --spacing-16x:1rem;
+  --spacing-20x:1.25rem;
+  --spacing-24x:1.5rem;
+  --spacing-28x:1.75rem;
+  --spacing-32x:2rem;
+  --spacing-36x:2.25rem;
+  --spacing-40x:2.5rem;
+  --spacing-44x:2.75rem;
+  --spacing-48x:3rem;
+  --spacing-52x:3.25rem;
+
+  /* BORDER RADIUS */
+  --radius-4x:0.25rem;
+  --radius-8x:0.5rem;
+  --radius-12x:0.75rem;
+  --radius-16x:1rem;
+  --radius-20x:1.25rem;
+}
+
 /* Typography */
 
 h1 {
@@ -151,6 +221,3 @@ small {
     line-height: calc(0.625rem * 1.5);
   }
 }
-
-
-
