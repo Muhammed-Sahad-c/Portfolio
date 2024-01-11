@@ -12,6 +12,8 @@
   font-weight: 400;
 }
 
+/* Typography */
+
 h1 {
   font-size: 3rem;
   font-style: normal;
@@ -56,16 +58,99 @@ h6 {
 }
 
 p {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: calc(1rem * 1.5);
+}
+
+small {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: calc(0.875rem * 1.5);
+}
+
+.small-2 {
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: calc(0.625rem * 1.5);
+}
+
+.p-small {
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
   line-height: calc(1.125rem * 1.5);
 }
 
-small {
-  font-family: Poppins;
-  font-size: 0.875rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: calc(0.875rem * 1.5);
+/* Typography small */
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: calc(2rem * 1.5);
+  }
+
+  h2 {
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: calc(1.75 * 1.5);
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: calc(1.5rem * 1.5);
+  }
+
+  h4 {
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: calc(1.25rem * 1.5);
+  }
+
+  h5 {
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: calc(1.125rem * 1.5);
+  }
+
+  h6 {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: calc(1rem * 1.5);
+  }
+
+  p {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(1rem * 1.5);
+  }
+
+  small {
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(0.875rem * 1.5);
+  }
+
+  .small2 {
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: calc(0.625rem * 1.5);
+  }
 }
+
+
+
