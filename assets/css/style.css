@@ -11,6 +11,7 @@
   font-size: 1rem;
   font-weight: 400;
   color: var(--text-13);
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -285,3 +286,96 @@ button {
   color: var(--accent-7);
 }
 
+/* Input Box */
+
+input {
+  margin: 3rem;
+  border-radius: var(--radius-8x);
+  padding: var(--spacing-8x) var(--spacing-8x) var(--spacing-8x)
+    var(--spacing-8x);
+  border: 1px solid var(--text-6);
+}
+
+input::placeholder {
+  color: var(--text-6);
+}
+
+input:hover {
+  padding: var(--spacing-8x) var(--spacing-8x) var(--spacing-8x)
+    var(--spacing-8x);
+  border: 1px solid var(--text-10);
+}
+
+input:hover::placeholder {
+  transition: ease-in;
+  color: var(--text-10);
+}
+
+input:focus {
+  color: var(--text-10);
+}
+
+/* Navigation bar */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 5rem;
+  background: var(--secondary-6);
+}
+
+.navbar {
+  height: 5rem;
+}
+
+@media (max-width: 992px) {
+  header {
+    height: auto;
+  }
+  .navbar {
+    height: auto;
+    padding-top: var(--spacing-20x) !important;
+    padding-bottom: var(--spacing-20x) !important;
+  }
+}
+
+.navbar button {
+  border: none;
+  outline: none;
+}
+
+.navbar button:focus {
+  border: none;
+  outline: none;
+}
+
+.navbar-brand {
+  font-weight: 600 !important;
+  color: var(--text-13) !important;
+}
+
+.collapse {
+  justify-content: end;
+}
+
+.navbar-nav .nav-item {
+  padding-right: var(--spacing-16x);
+}
+
+.navbar-nav .nav-item a {
+  color: var(--text-8);
+}
+
+.navbar-nav .nav-item a:hover {
+  transition: 0.3s;
+  color: var(--accent-6);
+}
+
+.nav-item .nav-link-active {
+  color: var(--accent-6) !important;
+}
+
+ 
